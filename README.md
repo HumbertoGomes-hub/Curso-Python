@@ -18,3 +18,5 @@ Com técnica e disciplina
 Dando o sangue com amor
 Pela bandeira que ensina
 Lutar com fé e com ardor
+
+https://www.santosfc.com.br/hino-oficial/
