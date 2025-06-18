@@ -1,0 +1,5 @@
+frase = str(input("DIGITE: ")).upper().strip()
+print(f"apareceu {frase.count('A')} vezes")
+#frase1 = frase.replace(" ","")
+print(f"Primeira {frase.find('A')+1}")
+print(f"Ultima {frase.rfind('A')+1}")
