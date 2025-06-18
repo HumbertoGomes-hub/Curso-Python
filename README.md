@@ -1,4 +1,4 @@
-# santosfc
+# CursoPython
  Sou alvinegro da Vila Belmiro
 O Santos vive no meu coração
 É o motivo de todo o meu riso
