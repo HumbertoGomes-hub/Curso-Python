@@ -9,3 +9,8 @@ elif num == 3:
     print("HEXADECIMAL: ", hex(val))
 else:
     print("ERRO(COMANDO INVALIDO)")
+
+
+    #print(''' as
+        #  asasas
+        #  sasas''')
