@@ -1,6 +1,6 @@
 print("CALCULADOR DE NOTAS")
 n1 = float(input("NOTA 1: "))
-n2 = float(input("NORA 2: "))
+n2 = float(input("NOTA 2: "))
 m = (n1 + n2)/2
 if m < 5.0:
     print("ALUNO REPROVADO MEDIA {:.1f}".format(m))

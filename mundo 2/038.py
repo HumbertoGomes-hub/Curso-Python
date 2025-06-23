@@ -5,4 +5,4 @@ if n1 > n2:
 elif n2 > n1:
     print(f"VALOR 2 MAIOR: {n2}")
 else:
-    print(f"OS VALORE 1 E 2 SAO IGUAIS")
+    print(f"OS VALORES 1 E 2 SAO IGUAIS")
