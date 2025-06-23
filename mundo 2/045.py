@@ -8,7 +8,7 @@ if person >= 1 and person <= 3:
     if person == pc:
         print("EMPATE")
     elif person == 1 and pc == 3:
-        print("GANHOU, TESOURA QUEBRA PEDRA")
+        print("GANHOU, PEDRA QUEBRA TESOURA")
     elif person == 1 and pc == 2:
         print("PERDEU, PAPEL EMBRULHA PEDRA")
     elif person == 2 and pc == 1:
@@ -21,5 +21,11 @@ if person >= 1 and person <= 3:
         print("PERDEU, TESOURA CORTA PAPEL")
 else:
     print("NUMERO INVALIDO")
+
+
+    #itens = ("pedra","papel","tesoura")
+    #pc = random.randint(0,2)
+    #print("O pc escolheu".format(itens[pc]))
+
     
     
