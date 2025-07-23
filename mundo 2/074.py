@@ -1,8 +1,4 @@
 from random import randint
-a1 = randint
-a2 = randint
-a3 = randint
-a4 = randint
-a5 = randint
-tupla = randint
-print(a5)
+tupla = (randint(1,10),randint(1,10),randint(1,10),randint(1,10),randint(1,10))
+print(tupla)
+print(f"MAIOR {max(tupla)}, MENOR {min(tupla)}")
