@@ -10,7 +10,7 @@ for c in range (5):
             if n <= lista[pos]:
                 lista.insert(pos,n)
                 break
-            pos +=
+            pos +=1
 print(lista)
         
     
