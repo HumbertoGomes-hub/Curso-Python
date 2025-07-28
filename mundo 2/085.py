@@ -12,5 +12,5 @@ impar.sort()
 par.sort()
 lmae.append(impar[:])
 lmae.append(par[:])
-print(lmae)
+print(f"VALORES IMPARES: {lmae[0]}, VALORES PARES: {lmae[1]}")
         
