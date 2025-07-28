@@ -9,6 +9,8 @@ for c in range (0,7):
         else:
             impar.append(lmae[:])
     lmae.clear()
+par.sort()
+impar.sort()
             
-print(f"PAR {par.sort()}, IMPAR {impar.sort()}")
+print(f"PAR {par}, IMPAR {impar}")
         
