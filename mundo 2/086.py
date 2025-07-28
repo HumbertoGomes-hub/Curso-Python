@@ -1,0 +1,15 @@
+matrix = [[],[],[],[],[],[],[],[],[]]
+matrix[0].append(int(input("DIGITE [0,0]: ")))
+matrix[1].append(int(input("DIGITE [0,1]: ")))
+matrix[2].append(int(input("DIGITE [0,2]: ")))
+matrix[3].append(int(input("DIGITE [1,0]: ")))
+matrix[4].append(int(input("DIGITE [1,1]: ")))
+matrix[5].append(int(input("DIGITE [1,2]: ")))
+matrix[6].append(int(input("DIGITE [2,0]: ")))
+matrix[7].append(int(input("DIGITE [2,1]: ")))
+matrix[8].append(int(input("DIGITE [2,2]: ")))
+
+print("-="*30)
+print(matrix[0],matrix[1],matrix[2])
+print(matrix[3],matrix[4],matrix[5])
+print(matrix[6],matrix[7],matrix[8])
