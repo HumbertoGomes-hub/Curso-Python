@@ -1,16 +1,13 @@
-lmae = list()
-par = list()
-impar = list()
+lmae = [[],[]]
 a = 0
 for c in range (0,7):
     a = int(input("DIGITE UM VALOR: "))
     if a%2 == 0:
-        par.append(a)
+        lmae[0].append(a)
     else:
-        impar.append(a)
-impar.sort()
-par.sort()
-lmae.append(impar[:])
-lmae.append(par[:])
-print(f"VALORES IMPARES: {lmae[0]}, VALORES PARES: {lmae[1]}")
+        lmae[1].append(a)
+lmae[0].sort()
+lmae[1].sort()
+
+print(f"VALORES IMPARES: {lmae[1]}, VALORES PARES: {lmae[0]}")
         
