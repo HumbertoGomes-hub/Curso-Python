@@ -29,8 +29,10 @@ for i,c in enumerate(range(cont)):
 
 while True:
     num = int(input("NUMERO DO ALUNO QUE DESEJA VER AS NOTAS: "))
-    print(f"ALUNO: {lista_alunos[num][0]} NOTA 1: {lista_alunos[num][1][0]} NOTA 2: {lista_alunos[num][1][1]}")
-    
+    if num <= len(lista_alunos)-1:
+        print(f"ALUNO: {lista_alunos[num][0]} NOTA 1: {lista_alunos[num][1][0]} NOTA 2: {lista_alunos[num][1][1]}")
+    else:
+        print("VALOR INVALIDO")
     
     controle2 = str(input("QUER CONTINUAR [S/N]: ")).upper().strip()
     cont +=1
