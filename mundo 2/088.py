@@ -1,4 +1,5 @@
 from random import randint
+import time
 quant = int(input("QUANTIADE DE JOGOS: "))
 jogo = list()
 
@@ -21,11 +22,16 @@ for c in range(quant):
                 
             
           
-print(jogo)
+
 print("-="*27)
 for c2 in range(quant):
     print(f"CAERTELA {c2+1} : {jogo[c2]}")
-           
+    time.sleep(1) 
+print()  
+print(jogo)       
+        
+        
+          
 
                 
         
