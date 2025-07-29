@@ -15,7 +15,7 @@ while True:
     lista_alunos.append(deepcopy(aluno))
     aluno.clear()
     notas_aluno.clear()
-    media.clear
+    media.clear()
     controle = str(input("QUER CONTINUAR [S/N]: ")).upper().strip()
     cont +=1
     if controle[0] == "N":
@@ -24,7 +24,7 @@ while True:
     
 for i,c in enumerate(range(cont)):
     print("-="*30)
-    print(f"NUMERO: {i}  ALUNO: {lista_alunos[c][0]}   MEDIA: {lista_alunos[0][2][0]}")
+    print(f"NUMERO: {i}  ALUNO: {lista_alunos[c][0]}   MEDIA: {lista_alunos[c][2][0]}")
     print("-="*30)
 
 while True:
