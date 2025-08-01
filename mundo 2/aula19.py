@@ -22,7 +22,7 @@ for k,v in pessoas.items():
 brasil = list()
 estado1 = {"uf":"São Paulo", "sigla":"SP"}
 estado2 = {"uf":"Rio de Janeiro","sigla":"RJ"}
-
+estado3 = dict()
 brasil.append(estado1)
 brasil.append(estado2)
 
