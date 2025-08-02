@@ -1,6 +1,6 @@
-#from random import randint
-import random
-pc = random.randint(1,5)
+from random import randint
+#import random
+pc = randint(1,5)
 print("ADIVINHE O NUMERO")
 a1 = int(input(""))
 if a1 == pc:
