@@ -15,6 +15,7 @@ if ctps1 != 0:
     cad["ctps"] = ctps1
     apo = 65 - cad["idade"]
     cad["idade_apo"] = apo + idade
+    print(cad)
     print("-="*27)
     print(f"Nome: {cad['nome']} | Idade: {cad['idade']}")
     print("-"*27)
